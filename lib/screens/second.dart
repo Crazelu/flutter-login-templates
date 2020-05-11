@@ -17,7 +17,7 @@ class _LoginUI02State extends State<LoginUI02> {
           child: Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/undraw_adventure_4hum.png'),
+                image: AssetImage('assets/buildin3.jpg'),
                 fit: BoxFit.cover,
                 colorFilter: ColorFilter.mode(Colors.grey[800], BlendMode.darken)
                 )

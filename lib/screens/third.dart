@@ -37,7 +37,6 @@ class _LoginUI03State extends State<LoginUI03> {
                       'hello!',
                       style: TextStyle(
                         color: Colors.white,
-                        fontFamily: 'SourceCodePro',
                         fontSize: 45,
                         fontWeight: FontWeight.w700
                       )
@@ -181,7 +180,6 @@ class _LoginUI03State extends State<LoginUI03> {
                         'or connect with',
                         style: TextStyle(
                           color: Colors.grey[100],
-                          fontFamily: 'SourceCodePro',
                           fontSize: 14
                         )
                       ),
@@ -193,7 +191,6 @@ class _LoginUI03State extends State<LoginUI03> {
                           style: TextStyle(
                             decoration: TextDecoration.underline,
                             color: Colors.lightBlue,
-                            fontFamily: 'SourceCodePro',
                             fontSize: 14
                           )
                         ),

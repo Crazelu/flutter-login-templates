@@ -23,7 +23,7 @@ class _LoginUI01State extends State<LoginUI01>{
               decoration: BoxDecoration(
                 image: DecorationImage(
                   colorFilter: ColorFilter.mode(Colors.grey[700], BlendMode.darken),
-                  image: AssetImage('images/undraw_adventure_4hum.png'),
+                  image: AssetImage('assets/buildin3.jpg'),
                   fit: BoxFit.fill
                   )
               )
