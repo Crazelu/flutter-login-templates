@@ -171,11 +171,12 @@ class _LoginUI05State extends State<LoginUI05> {
                        Row(
                          mainAxisAlignment: MainAxisAlignment.center,
                          children: <Widget>[
+                           //Wrap individual containers in GestureDetector or InkWell widgets to implement onTap/onPressed properties
                            Container(
-                             height: height * 0.065,
-                             width: height * 0.065,
+                             height: height * 0.06,
+                             width: height * 0.06,
                              decoration: BoxDecoration(
-                               color: Colors.teal,
+                               color: Colors.white,
                                borderRadius: BorderRadius.circular(10),
                                boxShadow: [
                        BoxShadow(
@@ -186,22 +187,18 @@ class _LoginUI05State extends State<LoginUI05> {
                      ]
                              ),
                              child: Center(
-                              child: Text(
-                                'f',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 30,
-                                  fontWeight: FontWeight.w600
-                                )
-                              )
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/icons8-facebook-48.png'
+                                ),)
                              ),
                            ),
                            SizedBox(width:20),
                            Container(
-                             height: height * 0.065,
-                             width: height * 0.065,
+                             height: height * 0.06,
+                             width: height * 0.06,
                              decoration: BoxDecoration(
-                               color: Colors.teal,
+                               color: Colors.white,
                                borderRadius: BorderRadius.circular(10),
                                boxShadow: [
                        BoxShadow(
@@ -212,22 +209,18 @@ class _LoginUI05State extends State<LoginUI05> {
                      ]
                              ),
                              child: Center(
-                              child: Text(
-                                'G',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 30,
-                                  fontWeight: FontWeight.w600
-                                )
-                              )
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/icons8-google-48.png'
+                                ),)
                              ),
                            ),
                            SizedBox(width:20),
                            Container(
-                             height: height * 0.065,
-                             width: height * 0.065,
+                             height: height * 0.06,
+                             width: height * 0.06,
                              decoration: BoxDecoration(
-                               color: Colors.teal,
+                               color: Colors.white,
                                borderRadius: BorderRadius.circular(10),
                                boxShadow: [
                        BoxShadow(
@@ -238,14 +231,10 @@ class _LoginUI05State extends State<LoginUI05> {
                      ]
                              ),
                              child: Center(
-                              child: Text(
-                                't',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 30,
-                                  fontWeight: FontWeight.w600
-                                )
-                              )
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/icons8-twitter-48.png'
+                                ),)
                              ),
                            ),
                          ],

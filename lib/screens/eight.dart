@@ -180,6 +180,7 @@ class _LoginUI08State extends State<LoginUI08> {
                             'FORGOT PASSWORD?',
                             style: TextStyle(
                               color: lightColor[400],
+                              fontSize:12
                             )
                           )
                         )
@@ -224,6 +225,7 @@ class _LoginUI08State extends State<LoginUI08> {
                           "DON'T HAVE AN ACCOUNT?",
                           style: TextStyle(
                             color: lightColor[400],
+                            fontSize: 13
                           )
                         ),
                         SizedBox(width: 5,),
@@ -233,7 +235,7 @@ class _LoginUI08State extends State<LoginUI08> {
                             'CREATE',
                             style: TextStyle(
                               color: Colors.deepOrangeAccent[200],
-                              fontSize:15,
+                              fontSize:14,
                               fontWeight: FontWeight.bold
                             )
                           )

@@ -158,7 +158,7 @@ class _LoginUI06State extends State<LoginUI06> {
                           boxShadow: [
                             BoxShadow(
                               color: Colors.grey[300],
-                              blurRadius:2,
+                              blurRadius:8,
                               offset: Offset(0, 10)
                             )
                           ]
@@ -202,7 +202,7 @@ class _LoginUI06State extends State<LoginUI06> {
                           boxShadow: [
                             BoxShadow(
                               color: Colors.grey[300],
-                              blurRadius:2,
+                              blurRadius:10,
                               offset: Offset(0, 10)
                             )
                           ]
