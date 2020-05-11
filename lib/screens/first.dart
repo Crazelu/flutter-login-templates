@@ -19,7 +19,7 @@ class _LoginUI01State extends State<LoginUI01>{
         child: Stack(
           children: <Widget>[
             Container(
-              height: height * 0.68,
+              height: height * 0.7,
               decoration: BoxDecoration(
                 image: DecorationImage(
                   colorFilter: ColorFilter.mode(Colors.black.withOpacity(.5), BlendMode.darken),
@@ -70,7 +70,7 @@ class _LoginUI01State extends State<LoginUI01>{
                                       color: Colors.grey[400],
                                       fontSize: 14
                                     ),
-                                    border: OutlineInputBorder(
+                                    focusedBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(10),
                                       borderSide: BorderSide(
                                         color:Colors.white,
@@ -99,8 +99,12 @@ class _LoginUI01State extends State<LoginUI01>{
                                       color: Colors.grey[400],
                                       fontSize: 14
                                     ),
-                                    border: OutlineInputBorder(
-                                      borderRadius: BorderRadius.circular(10)
+                                    focusedBorder: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(10),
+                                      borderSide: BorderSide(
+                                        color:Colors.white,
+                                        width: 2
+                                        )
                                     ),
                                     enabledBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(10),

@@ -52,7 +52,10 @@ class _LoginUI03State extends State<LoginUI03> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       TextField(
-                        cursorColor: Colors.grey,
+                        style: TextStyle(
+                          fontSize:16
+                        ),
+                        cursorColor: Colors.white,
                         decoration: InputDecoration(
                           fillColor: Colors.grey[700].withOpacity(0.5),
                           filled: true,
@@ -76,13 +79,22 @@ class _LoginUI03State extends State<LoginUI03> {
                                         borderSide: BorderSide(
                                           color:Colors.grey,
                                           width: 2
+                                          )),
+                                      focusedBorder: OutlineInputBorder(
+                                        borderRadius: BorderRadius.circular(30),
+                                        borderSide: BorderSide(
+                                          color:Colors.white,
+                                          width: 2
                                           )
                                       ),
                         ),
                       ),
                       SizedBox(height: 20,),
                       TextField(
-                        cursorColor: Colors.grey,
+                        style: TextStyle(
+                          fontSize:16
+                        ),
+                        cursorColor: Colors.white,
                         decoration: InputDecoration(
                           fillColor: Colors.grey[700].withOpacity(0.5),
                           filled: true,
@@ -105,6 +117,13 @@ class _LoginUI03State extends State<LoginUI03> {
                                         borderRadius: BorderRadius.circular(30),
                                         borderSide: BorderSide(
                                           color:Colors.grey,
+                                          width: 2
+                                          )
+                                      ),
+                                      focusedBorder: OutlineInputBorder(
+                                        borderRadius: BorderRadius.circular(30),
+                                        borderSide: BorderSide(
+                                          color:Colors.white,
                                           width: 2
                                           )
                                       ),

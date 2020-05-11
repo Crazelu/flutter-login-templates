@@ -105,7 +105,7 @@ class _LoginUI04State extends State<LoginUI04> with SingleTickerProviderStateMix
                                             width: 2
                                             )
                                         ),
-                            border: OutlineInputBorder(
+                            focusedBorder: OutlineInputBorder(
                               borderSide: BorderSide(
                                             color:Colors.white,
                                             width: 2
@@ -143,7 +143,7 @@ class _LoginUI04State extends State<LoginUI04> with SingleTickerProviderStateMix
                                             width: 2
                                             )
                                         ),
-                            border: OutlineInputBorder(
+                            focusedBorder: OutlineInputBorder(
                               borderSide: BorderSide(
                                             color:Colors.white,
                                             width: 2
@@ -189,7 +189,7 @@ class _LoginUI04State extends State<LoginUI04> with SingleTickerProviderStateMix
                       width: width * 0.4,
                       child: RaisedButton(
                         splashColor: Colors.indigo,
-                        color: Colors.lightBlueAccent,
+                        color: Colors.blueAccent,
                         onPressed: (){},
                         child: Text(
                           'LOGIN',

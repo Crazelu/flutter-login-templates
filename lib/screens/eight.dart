@@ -109,23 +109,20 @@ class _LoginUI08State extends State<LoginUI08> {
                         prefixIcon: Icon(Icons.person_outline, color:lightColor[400]),
                         labelText: 'USERNAME',
                         labelStyle: TextStyle(
-                          color: lightColor[400],
+                          color: Colors.deepOrangeAccent,
                           fontWeight: FontWeight.w600,
                           fontSize: 14
-                        ),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.zero,
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.zero,
                           borderSide: BorderSide(
-                            color: Colors.amberAccent
+                            color: lightColor
                           )
                         ),
-                        disabledBorder: OutlineInputBorder(
+                        focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.zero,
                           borderSide: BorderSide(
-                            color: lightColor
+                            color: Colors.amberAccent
                           )
                         ),
                       )
@@ -149,23 +146,20 @@ class _LoginUI08State extends State<LoginUI08> {
                         }),
                         labelText: 'PASSWORD',
                         labelStyle: TextStyle(
-                          color: lightColor[400],
+                          color: Colors.deepOrangeAccent,
                           fontWeight: FontWeight.w600,
-                          fontSize: 14
-                        ),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.zero
+                          fontSize: 14,
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.zero,
                           borderSide: BorderSide(
-                            color: Colors.amberAccent
+                            color: lightColor
                           )
                         ),
-                        disabledBorder: OutlineInputBorder(
+                        focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.zero,
                           borderSide: BorderSide(
-                            color: lightColor
+                            color: Colors.amberAccent
                           )
                         ),
                       )

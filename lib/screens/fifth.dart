@@ -14,7 +14,7 @@ class _LoginUI05State extends State<LoginUI05> {
     final double height = MediaQuery.of(context).size.height;
     return SafeArea(
       child: Material(
-        color: Color.fromARGB(255, 220, 240, 220),
+        color: Color.fromARGB(255, 220, 240, 250),
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Container(
@@ -48,8 +48,10 @@ class _LoginUI05State extends State<LoginUI05> {
                      children: <Widget>[
                        TextField(
                          style: TextStyle(
-                           fontSize:18
+                           fontSize:18,
+                           color: Colors.teal,
                          ),
+                         cursorColor: Colors.white,
                          decoration: InputDecoration(
                            prefixIcon: Icon(Icons.email, color: Colors.teal),
                            hintText: 'Email',
@@ -62,18 +64,20 @@ class _LoginUI05State extends State<LoginUI05> {
                                color: Colors.grey.withOpacity(0.5),
                              )
                            ),
-                           border: OutlineInputBorder(
+                           focusedBorder: OutlineInputBorder(
                              borderRadius: BorderRadius.circular(5),
                              borderSide: BorderSide(
-                               color: Colors.grey.withOpacity(0.5),
+                               color: Colors.white,
                              )
                            )
                          )
                        ),
                        TextField(
                          style: TextStyle(
-                           fontSize:18
+                           fontSize:18,
+                           color: Colors.teal
                          ),
+                         cursorColor: Colors.white,
                          obscureText: true,
                          decoration: InputDecoration(
                            prefixIcon: Icon(Icons.lock_outline, color: Colors.teal),
@@ -87,10 +91,10 @@ class _LoginUI05State extends State<LoginUI05> {
                                color: Colors.grey.withOpacity(0.5),
                              )
                            ),
-                           border: OutlineInputBorder(
+                           focusedBorder: OutlineInputBorder(
                              borderRadius: BorderRadius.circular(5),
                              borderSide: BorderSide(
-                               color: Colors.grey.withOpacity(0.5),
+                               color: Colors.white,
                              )
                            )
                          )
@@ -136,7 +140,7 @@ class _LoginUI05State extends State<LoginUI05> {
                  Container(
                    margin: EdgeInsets.only(top:height * 0.01),
                    width: width,
-                   height: height * 0.08,
+                   height: 60,
                    decoration: BoxDecoration(
                      boxShadow: [
                        BoxShadow(
@@ -173,8 +177,8 @@ class _LoginUI05State extends State<LoginUI05> {
                          children: <Widget>[
                            //Wrap individual containers in GestureDetector or InkWell widgets to implement onTap/onPressed properties
                            Container(
-                             height: height * 0.06,
-                             width: height * 0.06,
+                             height: 40,
+                             width: 40,
                              decoration: BoxDecoration(
                                color: Colors.white,
                                borderRadius: BorderRadius.circular(10),
@@ -195,8 +199,8 @@ class _LoginUI05State extends State<LoginUI05> {
                            ),
                            SizedBox(width:20),
                            Container(
-                             height: height * 0.06,
-                             width: height * 0.06,
+                             height: 40,
+                             width: 40,
                              decoration: BoxDecoration(
                                color: Colors.white,
                                borderRadius: BorderRadius.circular(10),
@@ -217,8 +221,8 @@ class _LoginUI05State extends State<LoginUI05> {
                            ),
                            SizedBox(width:20),
                            Container(
-                             height: height * 0.06,
-                             width: height * 0.06,
+                             height: 40,
+                             width: 40,
                              decoration: BoxDecoration(
                                color: Colors.white,
                                borderRadius: BorderRadius.circular(10),
@@ -239,7 +243,7 @@ class _LoginUI05State extends State<LoginUI05> {
                            ),
                          ],
                          ),
-                       SizedBox(height: 25,),
+                       SizedBox(height: 30,),
                        Row(
                          mainAxisAlignment: MainAxisAlignment.center,
                          children: <Widget>[
