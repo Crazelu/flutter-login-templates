@@ -16,7 +16,7 @@ class _LoginUI03State extends State<LoginUI03> {
               color: Colors.black
             ),
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 40),
+              padding: EdgeInsets.symmetric(horizontal: 30),
               child: Stack(
                 children: <Widget>[
                   Positioned(
@@ -30,7 +30,7 @@ class _LoginUI03State extends State<LoginUI03> {
                   ),
                 Positioned(
                   top: height * 0.5,
-                  left: width * 0.2,
+                  left: width * 0.25,
                   child: Container(
                     width: width,
                     child: Text(
@@ -173,7 +173,7 @@ class _LoginUI03State extends State<LoginUI03> {
                 
                 Positioned(
                   top: height * 0.9,
-                  left: width * 0.1,
+                  left: width * 0.15,
                   child: Row(
                     children: <Widget>[
                       Text(

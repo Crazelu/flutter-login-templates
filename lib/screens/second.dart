@@ -19,7 +19,7 @@ class _LoginUI02State extends State<LoginUI02> {
               image: DecorationImage(
                 image: AssetImage('assets/buildin3.jpg'),
                 fit: BoxFit.cover,
-                colorFilter: ColorFilter.mode(Colors.grey[800], BlendMode.darken)
+                colorFilter: ColorFilter.mode(Colors.black.withOpacity(.5), BlendMode.darken)
                 )
             ),
          child: Stack(
