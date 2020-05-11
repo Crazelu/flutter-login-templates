@@ -123,7 +123,7 @@ class _LoginUI03State extends State<LoginUI03> {
                         width: width * 0.37,
                         height: height * 0.06,
                         child: RaisedButton(
-                          splashColor: Colors.lightBlueAccent,
+                          splashColor: Colors.grey[200],
                           onPressed: (){},
                           color: Colors.transparent,
                           child: Text(
