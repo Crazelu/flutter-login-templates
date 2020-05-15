@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Login Templates',
-      home: Loader(),
+      home: Loader()//Loader(),
     );
   }
 }

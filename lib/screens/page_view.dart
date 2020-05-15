@@ -8,7 +8,9 @@ import 'package:flutter_login_templates/screens/seventh.dart';
 import 'package:flutter_login_templates/screens/sixth.dart';
 import 'package:flutter_login_templates/screens/tenth.dart';
 import 'package:flutter_login_templates/screens/third.dart';
+import 'package:flutter_login_templates/screens/twelfth.dart';
 
+import 'eleventh.dart';
 import 'ninth.dart';
 
 class Loader extends StatefulWidget {
@@ -19,7 +21,7 @@ class Loader extends StatefulWidget {
 class _LoaderState extends State<Loader> {
 
   final widgetList = [LoginUI01(), LoginUI02(), LoginUI03(), LoginUI04(), LoginUI05(), LoginUI06(), 
-  LoginUI07(),LoginUI08(), LoginUI09(), LoginUI10()]; 
+  LoginUI07(),LoginUI08(), LoginUI09(), LoginUI10(), LoginUI11(), LoginUI12()]; 
 
   @override
   Widget build(BuildContext context) {
